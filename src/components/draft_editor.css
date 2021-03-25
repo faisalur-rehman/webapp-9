@@ -1,0 +1,15 @@
+.editor-wrapper {
+  border: 2px solid rgb(168, 168, 168);
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.editor {
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.editor *::first-letter {
+  text-transform: capitalize;
+}
